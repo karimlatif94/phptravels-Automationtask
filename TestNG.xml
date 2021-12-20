@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite thread-count="3" name="Testing Suite">
+    <parameter name="browser" value="chrome" />
+    <test name="all_tests">
+        <classes>
+            <class name="tests.AuthenticationTest" />
+            <class name="tests.AddAdminFormTest" />
+            <class name="tests.NewAdminFuncTest" />
+            <class name="tests.AddHotelFormTest" />
+        </classes>
+    </test>
+</suite>
